@@ -1,12 +1,13 @@
-Verificar si se necesitan mas telemarketers
+## Verificar si se necesitan mas telemarketers
 
 1. Input
 
-1
+```1
 3
 0606142000 0606142200
 0606144000 0606145000
 0606143000 0606144000
+```
 
 2. Output
 1
