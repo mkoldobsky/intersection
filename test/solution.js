@@ -1,20 +1,20 @@
 const chai = require('chai');
-const SpreadSheet = require('../spreadSheet.js');
+//const SpreadSheet = require('../spreadSheet.js');
 
-var sheet;
+//var sheet;
 
 describe("solution", () => {
     beforeEach(() => {
-        sheet = new SpreadSheet();
+        //sheet = new SpreadSheet();
     });
 
     describe("sheet", () => {
         describe("cells", () => {
             it.skip("should populate two cells with numeric values and response the stored values", () => {
 
-                // ... 
+                // ...
                 // Code here!
-                // ... 
+                // ...
 
                 chai.expect( sheet.get("a1") )
                     .to.be.eql(1);
@@ -24,9 +24,9 @@ describe("solution", () => {
 
             it.skip("should polulate cells with a label and a value and response the stored values", () => {
 
-                // ... 
+                // ...
                 // Code here!
-                // ... 
+                // ...
 
                 chai.expect( sheet.get("a1") )
                     .to.be.eql("Valor:");
@@ -36,9 +36,9 @@ describe("solution", () => {
 
             it.skip("should store values and update values references", () => {
 
-                // ... 
+                // ...
                 // Code here!
-                // ... 
+                // ...
 
                 chai.expect( sheet.get("a1") )
                     .to.be.eql(1);
@@ -48,9 +48,9 @@ describe("solution", () => {
 
             it.skip("should response summatory", () => {
 
-                // ... 
+                // ...
                 // Code here!
-                // ... 
+                // ...
 
                 chai.expect( sheet.get("a3") )
                     .to.be.eql(3);
@@ -63,9 +63,9 @@ describe("solution", () => {
 
             it.skip("should response summatory - broken range", () => {
 
-                // ... 
+                // ...
                 // Code here!
-                // ... 
+                // ...
 
                 chai.expect( sheet.get("a3") )
                     .to.be.eql(3);
